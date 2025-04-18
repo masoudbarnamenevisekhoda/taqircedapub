@@ -1,0 +1,9 @@
+echo "# taqircedapub" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/masoudbarnamenevisekhoda/taqircedapub.git
+git push -u origin main
+# @title 查看显卡
+!nvidia-smi
